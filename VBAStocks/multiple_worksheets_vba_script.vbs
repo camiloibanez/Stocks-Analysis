@@ -1,5 +1,15 @@
+Attribute VB_Name = "Module2"
 Sub stocktracker():
     For Each ws In Worksheets
+    
+        ws.Columns(9).Clear
+        ws.Columns(10).Clear
+        ws.Columns(11).Clear
+        ws.Columns(12).Clear
+        ws.Columns(15).Clear
+        ws.Columns(16).Clear
+        ws.Columns(17).Clear
+        
         ws.Range("I1").Value = "Ticker"
         ws.Range("J1").Value = "Yearly Change"
         ws.Range("K1").Value = "Percent Change"

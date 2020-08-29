@@ -1,4 +1,13 @@
+Attribute VB_Name = "Module1"
 Sub stocktracker():
+    Columns(9).Clear
+    Columns(10).Clear
+    Columns(11).Clear
+    Columns(12).Clear
+    Columns(15).Clear
+    Columns(16).Clear
+    Columns(17).Clear
+    
     Range("I1").Value = "Ticker"
     Range("J1").Value = "Yearly Change"
     Range("K1").Value = "Percent Change"
